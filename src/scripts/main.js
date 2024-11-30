@@ -384,7 +384,7 @@ for (let i = 0; i < numRows; i++) {
   const elCentury = Math.ceil(elDied / 100);
   // const newMassElement = people[i];
 
-  let newCol = [];
+  const newCol = [];
 
   for (let col = 0; col < nameCols.length; col++) {
     newCol[col] = document.createElement('td');
@@ -397,5 +397,5 @@ for (let i = 0; i < numRows; i++) {
   newCol[4].textContent = elAge;
   newCol[5].textContent = elCentury;
 
-  newRow.appendChild(newCol);
+  newRow.appendChild('/tr');
 }
